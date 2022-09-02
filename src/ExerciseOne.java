@@ -76,9 +76,6 @@ public class ExerciseOne {
                 case "3":
                     Utils.showClientsWithEmployees(clients, employees);
                     break;
-                case "4":
-                    System.out.println(employees);
-                    break;
             }
 
         }

@@ -43,13 +43,14 @@ public class Employee extends Person {
         }
     }
 
-    public void quitJob(ArrayList<Employee> employees) {
+    public ArrayList<Employee> quitJob(ArrayList<Employee> employees) {
         for (Employee e : employees) {
             if (e.equals(this)) {
                 employees.remove(e);
                 break;
             }
         }
+        return employees;
     }
 
     public void takeSalary(double newSalary) {
